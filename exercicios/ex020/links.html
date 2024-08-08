@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+         body{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+         }
+
+        a{
+            text-decoration: none;
+            color: rgb(175, 49, 49);            
+        }
+
+        a:hover{
+            color: rgb(121, 11, 11);
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: rgb(124, 56, 56);
+            text-decoration: none;
+        }
+
+        .important::before{
+            content: "»";
+        }
+
+        .important::after{
+            content: "«";
+        }
+
+        a.important:hover{
+            background-color: black;
+            color: white;
+            
+        }
+
+        a:visited{
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando um Link</h1>        
+        <p>Para aprender HTML5 e CSS3, acesse o <a href="https://github.com/gustavoguanabara" target="_blank">Github do Guanabara</a></p>
+        <p>Se quiser conhecer mais sobre os padrões, visite o site do <a href="https://www.w3c.br" target="_blank">Escritorio W3C no Brasil</a> </p>
+        <p>Para acompanhar os cursos, acesse o <a href="https://www.youtube.com/c/CursoemVídeo" target="_blank" class="important">Canal do Curso em Video</a></p>
+</body>
+</html>

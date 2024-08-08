@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    background-color:  rgb(55, 6, 102);
+   font-family: 'Open Sans';
+}
+
+h1{
+    color: rgb(55, 6, 102);
+}
+
+#principal{
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2{
+    color: rgb(103, 50, 153);
+}
+
+main{
+    background-color: white;
+  border-radius: 10px;
+  margin: auto;
+  width: 600px;
+  padding: 20px;
+}
+
+.basico{
+    color: green;
+}
+
+.intermediario{
+    color: orange;
+}
+
+.avançado{
+    color: red;
+   
+}
+

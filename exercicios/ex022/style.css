@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+body{
+background-image: url("imagens/wallpaper002.jpg");
+}
+
+h1{
+    font-family: "new amsterdam", sans-serif;
+    text-align: center;
+    color: white;
+}
+
+div.quadrado{
+    display: inline-block;
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    
+}
+
+#q1{
+   background-color: aquamarine;
+}
+
+#q2{
+ background-image: linear-gradient(to bottom, rgb(105, 8, 8), rgb(22, 21, 21));
+}
+
+#q3{ 
+    background-image: url("imagens/pattern003.png");
+}

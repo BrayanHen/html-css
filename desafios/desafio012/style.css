@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -11,12 +13,11 @@
 
 :root{
    --font-destaque:"Passion One", sans-serif;
-   --font-texto:"Sriracha", sans-serif;
+   --font-texto:"sriracha", sans-serif;
 }
 
 body{
     height: 100vh;
-    background-color: rgb(66, 66, 66);
 }
 
 header{
@@ -34,13 +35,13 @@ header > h1{
 
 header > p{
     padding-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a{
     color: white;
-    font-weight: bolder;
-    text-decoration: none;
-    
+    font-family: var(--font-destaque);
+    text-decoration: none;  
 }
 
 a:hover{
@@ -51,6 +52,12 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
+    font-family: var(--font-texto);
+    font-size: 3vh;
+}
+
+section > p{
+    padding-bottom: 1em;
 }
 
 .normal{
@@ -58,11 +65,27 @@ section{
     line-height: 2em;
 }
 
+.imagem{     
+    box-shadow: inset 4px 4px 2px rgba(0, 0, 0, 0.233);
+}
+
 .imagem > p{
-    background-color: rgba(0, 0, 0, 0.185);
-    width: 400px;
-    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.185);    
+    width: 300px;
+    padding: 15px;
     color: white;
+    text-shadow: 2px 2px 0px black;
+}
+
+#dragao{
+    background: url(imagens/nameless001.jpg) center center no-repeat fixed;
+    background-size: cover;       
+}
+
+#rei{
+    background: url(imagens/nameless002.jpg) center top no-repeat fixed;
+    background-size: cover;
+    line-height: 1.5em;
 }
 
 footer{
@@ -70,5 +93,6 @@ footer{
   color: white;
   text-align: center;
   padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 

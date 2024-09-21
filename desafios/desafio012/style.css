@@ -4,6 +4,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
+@font-face {
+    font-family: "optimus";
+    src: url(fontes/OptimusPrincepsSemiBold.ttf) format(truetype);
+}
+
 
 
 *{
@@ -13,7 +18,7 @@
 
 :root{
    --font-destaque:"Passion One", sans-serif;
-   --font-texto:"sriracha", sans-serif;
+   --font-texto:"optimus", sans-serif;
 }
 
 body{

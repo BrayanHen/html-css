@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Formulario</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+
+         <p>
+            <label for="icor">Cor:</label>
+            <input type="color" name="cor" id="icor" value="#000000">
+        </p>
+
+        <p>
+            <label for="irange">Nivel de Satisfaçáo:</label>
+            <input type="range" name="range" id="irange">
+        </p>
+        <p>
+            <label for="ifile">Arquivo</label>
+            <input type="file" name="file" id="ifile">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
